@@ -2,19 +2,13 @@
 
 Packet capture depend on magisk、lsposed
 
-
-
 # 必须先安装magisk和lsposed
+
 # 必须有root权限，免root的不适用于这个教程
-
-
-
-
 
 1、解压 HttpCanary高级版  
 
-    1）手机打开设置搜索证书，安装CA证书，找到解压缩目录的HttpCanary.pem，安装完成   
-    2）将HttpCanary.pem重命名为HttpCanary.jks
+    1）手机打开设置搜索证书，安装CA证书，找到解压缩目录的HttpCanary.pem，安装完成       2）将HttpCanary.pem重命名为HttpCanary.jks
     3）使用MT管理器将HttpCanary.jks复制到/data/data/com.guoshi.httpcanary/cache/，如果失败说明没有root权限，用magisk授予root权限即可  
     4）安装HttpCanary.apk到手机  
 2、安装TrustMeAlready-v1.11-release.apk  
@@ -27,11 +21,10 @@ Packet capture depend on magisk、lsposed
     3）如果上面的步骤没有问题，那么应该会显示已安装  
     PS：也可以通过下方的**添加根证书到系统**移动个人证书到系统中，没试过  
 5、返回主页，左侧菜单栏进入目标应用  
-    PS：目标应用需要和上面TrustMeAlready设置的生效应用一致  
+
+    PS：目标应用需要和上面TrustMeAlready设置的生效应用一致  
 6、回到主页开启抓包  
 7、启动需要抓包的应用  
-
-
 
 # ELM抓包
 
